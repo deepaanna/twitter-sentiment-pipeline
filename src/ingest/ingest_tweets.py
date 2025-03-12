@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 
-load_dotenv()
+load_dotenv("D:/PROJECTS/Data-Engineering-Portfolio/twitter-sentiment-pipeline/config/.env")
 
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
 
@@ -23,4 +23,15 @@ class TweetStreamer(tweepy.StreamingClient):
 
 
 streamer = TweetStreamer(BEARER_TOKEN)
-streamer.filter(track=["crypto"])
+
+
+existing_rules = streamer.get_rules()
+if existing_rules.data:
+    rule_ids = [rule.id for rule in existing_rules.data]
+    streamer.delete_rules(rule_ids)
+
+rule = tweepy.StreamRule(value="AI", tag="ai_tweets")
+streamer.add_rules(rule)
+print(f"Added rule: {rule}")
+
+streamer.filter()
