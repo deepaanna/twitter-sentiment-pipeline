@@ -1,0 +1,12 @@
+2025-03-12 13:09:37,611 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-03-12 13:09:37,612 - INFO - Probing node bootstrap-0 broker version
+2025-03-12 13:09:37,613 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-03-12 13:09:37,719 - INFO - Broker version identified as 2.6.0
+2025-03-12 13:09:37,721 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-12 13:09:37,724 - WARNING - group_id is None: disabling auto-commit.
+2025-03-12 13:09:37,727 - INFO - Updating subscribed topics to: ('tweets',)
+2025-03-12 13:09:37,844 - INFO - Starting tweet processing...
+2025-03-12 13:09:37,847 - INFO - Updated partition assignment: [TopicPartition(topic='tweets', partition=0)]
+2025-03-12 13:09:37,857 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: connecting to DESKTOP-KMG1UAJ.home:9092 [('192.168.2.15', 9092) IPv4]
+2025-03-12 13:09:37,859 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: Connection complete.
+2025-03-12 13:09:37,861 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
