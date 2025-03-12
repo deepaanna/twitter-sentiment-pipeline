@@ -1,37 +1,76 @@
  
-import tweepy
-from kafka import KafkaProducer
 import json
-from dotenv import load_dotenv
-import os
+import time
+import random
+from kafka import KafkaProducer
+from faker import Faker
+import logging
 
 
-load_dotenv("D:/PROJECTS/Data-Engineering-Portfolio/twitter-sentiment-pipeline/config/.env")
+# Setting up logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
 
-BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+# Initialize Faker for data
+fake = Faker()
 
-producer = KafkaProducer(bootstrap_servers="localhost:9092",
-                         value_serializer = lambda v: json.dumps(v).encode("utf-8"))
+producer = KafkaProducer(
+    bootstrap_servers="localhost:9092",
+    value_serializer=lambda v: json.dumps(v).encode("utf-8")
+)
+crypto_terms = [
+    "Bitcoin BTC #BTC",
+    "Ethereum ETH #ETH",
+    "crypto #crypto",
+    "XRP #XRP",
+    "Cardano ADA #ADA",
+    "Dogecoin #DOGE",
+    "Solana SOL #SOL"
+]
 
-class TweetStreamer(tweepy.StreamingClient):
-    def on_tweet(self, tweet):
-        tweet_data = {"id": tweet.id,
-                      "text": tweet.text,
-                      "created_at": str(tweet.created_at)}
-        producer.send("tweets", tweet_data)
-        print(f"Sent tweet: {tweet.text}")
+sentiments = [
+    "is pumping!", "just crashed :(", "to the moon!", "Buy now!",
+    "HODL!", "selling all my", "best investment ever"
+]
 
+def generate_mock_tweet():
+    crypto_term = random.choice(crypto_terms)
+    sentiment = random.choice(sentiments)
+    tweet_text = f"{fake.sentence()} {crypto_term} {sentiment}"
+    tweet_data = {
+        "id": fake.uuid4(),
+        "text": tweet_text,
+        "created_at": fake.date_time_this_year().isoformat() + "Z"
+    }
+    return tweet_data
 
-streamer = TweetStreamer(BEARER_TOKEN)
+print("Starting mock tweet stream...")
+tweet_count = 0
+start_time = time.time()
+CHECK_INTERVAL = 300
 
+try:
+    while True:
+        tweet = generate_mock_tweet()
+        producer.send("tweets", tweet)
+        tweet_count += 1
+        logger.info(f"Sent mock tweet: {tweet['text']}")
 
-existing_rules = streamer.get_rules()
-if existing_rules.data:
-    rule_ids = [rule.id for rule in existing_rules.data]
-    streamer.delete_rules(rule_ids)
+        elapsed_time = time.time() - start_time
+        if elapsed_time >= CHECK_INTERVAL:
+            tweets_per_minute = tweet_count / (elapsed_time / 60)
+            logger.info(f"Processed {tweet_count} tweets in {elapsed_time:.1f} seconds( ~{tweets_per_minute:.1f} tweets/minute)")
 
-rule = tweepy.StreamRule(value="AI", tag="ai_tweets")
-streamer.add_rules(rule)
-print(f"Added rule: {rule}")
+            #Reset counters
+            tweet_count = 0
+            start_time = time.time()
 
-streamer.filter()
+        time.sleep(random.uniform(0.1, 1.0)) # to simulate real-time flow
+except KeyboardInterrupt:
+    elapsed_time = time.time() - start_time
+    tweets_per_minute = tweet_count / (elapsed_time / 60) if elapsed_time > 0 else 0
+
+    logger.info(f"Stopped mock tweet stream. Processed {tweet_count} tweets in {elapsed_time:.1f} seconds (~{tweets_per_minute:.1f} tweets/minute)")
