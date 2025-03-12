@@ -1,0 +1,9 @@
+2025-03-12 12:57:04,321 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-03-12 12:57:04,322 - INFO - Probing node bootstrap-0 broker version
+2025-03-12 12:57:04,323 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-03-12 12:57:04,429 - INFO - Broker version identified as 2.6.0
+2025-03-12 12:57:04,430 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-12 12:57:04,441 - INFO - Sent mock tweet: Station yard pass perhaps drug. Dogecoin #DOGE best investment ever
+2025-03-12 12:57:04,451 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: connecting to DESKTOP-KMG1UAJ.home:9092 [('192.168.2.15', 9092) IPv4]
+2025-03-12 12:57:04,543 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: Connection complete.
+2025-03-12 12:57:04,546 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
