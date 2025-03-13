@@ -3,3 +3,4 @@ python-dotenv==1.0.1
 vaderSentiment==3.3.2
 six==1.16.0
 faker>=23.2.1
+boto3>=1.37.11

@@ -15184,3 +15184,322 @@
 2025-03-12 13:20:00,071 - INFO - Stopped mock tweet stream. Processed 5315 tweets in 190.2 seconds (~1676.5 tweets/minute)
 2025-03-12 13:20:00,072 - INFO - Closing the Kafka producer with 0 secs timeout.
 2025-03-12 13:20:00,074 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2025-03-12 14:14:28,948 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-03-12 14:14:30,456 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-03-12 14:14:30,459 - INFO - Probing node bootstrap-0 broker version
+2025-03-12 14:14:30,462 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-03-12 14:14:30,568 - INFO - Broker version identified as 2.6.0
+2025-03-12 14:14:30,568 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-12 14:14:30,573 - INFO - Sent mock tweet: Account left argue good. Solana SOL #SOL selling all my
+2025-03-12 14:14:30,579 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: connecting to DESKTOP-KMG1UAJ.home:9092 [('192.168.2.15', 9092) IPv4]
+2025-03-12 14:14:30,581 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: Connection complete.
+2025-03-12 14:14:30,582 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-03-12 14:14:31,403 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:31,418 - INFO - Sent mock tweet: Drive expert street month cold person. Bitcoin BTC #BTC selling all my
+2025-03-12 14:14:32,096 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:32,110 - INFO - Sent mock tweet: Charge onto understand free baby. Solana SOL #SOL best investment ever
+2025-03-12 14:14:32,821 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:32,836 - INFO - Sent mock tweet: Window your party benefit now stage. crypto #crypto HODL!
+2025-03-12 14:14:33,574 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:33,589 - INFO - Sent mock tweet: Of sit cause no drug. crypto #crypto just crashed :(
+2025-03-12 14:14:34,304 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:34,318 - INFO - Sent mock tweet: Car challenge apply every. Ethereum ETH #ETH to the moon!
+2025-03-12 14:14:34,993 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:35,005 - INFO - Sent mock tweet: Authority once quite religious actually night. crypto #crypto Buy now!
+2025-03-12 14:14:35,677 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:35,689 - INFO - Sent mock tweet: Cut gas political ball design. Ethereum ETH #ETH is pumping!
+2025-03-12 14:14:36,323 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:36,337 - INFO - Sent mock tweet: Onto research shake. Dogecoin #DOGE best investment ever
+2025-03-12 14:14:37,064 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:37,079 - INFO - Sent mock tweet: Seat build soldier teach cause step. Ethereum ETH #ETH best investment ever
+2025-03-12 14:14:37,733 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:37,746 - INFO - Sent mock tweet: Tough sense simply person. Cardano ADA #ADA is pumping!
+2025-03-12 14:14:38,453 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:38,467 - INFO - Sent mock tweet: Smile receive here affect away myself contain. Ethereum ETH #ETH best investment ever
+2025-03-12 14:14:39,170 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:39,184 - INFO - Sent mock tweet: Red very send condition. Dogecoin #DOGE Buy now!
+2025-03-12 14:14:39,811 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:39,825 - INFO - Sent mock tweet: During mission box teach matter. Cardano ADA #ADA HODL!
+2025-03-12 14:14:40,457 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:40,469 - INFO - Sent mock tweet: Activity charge wind. XRP #XRP just crashed :(
+2025-03-12 14:14:41,124 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:41,137 - INFO - Sent mock tweet: Wonder answer daughter tough discover fight. crypto #crypto selling all my
+2025-03-12 14:14:41,785 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:41,806 - INFO - Sent mock tweet: Girl describe no half attention action consider middle. Bitcoin BTC #BTC Buy now!
+2025-03-12 14:14:42,451 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:42,470 - INFO - Sent mock tweet: Civil race table work half rest everything. Ethereum ETH #ETH Buy now!
+2025-03-12 14:14:43,149 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:43,162 - INFO - Sent mock tweet: Wind industry notice down scene movement. Dogecoin #DOGE HODL!
+2025-03-12 14:14:43,813 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:43,827 - INFO - Sent mock tweet: Lose one condition certain. Dogecoin #DOGE Buy now!
+2025-03-12 14:14:44,456 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:44,469 - INFO - Sent mock tweet: Figure film section science culture else. crypto #crypto to the moon!
+2025-03-12 14:14:45,142 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:45,155 - INFO - Sent mock tweet: Very necessary war give situation great total. Dogecoin #DOGE just crashed :(
+2025-03-12 14:14:45,822 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:45,835 - INFO - Sent mock tweet: Over certainly clearly police. crypto #crypto is pumping!
+2025-03-12 14:14:46,511 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:46,526 - INFO - Sent mock tweet: College charge not education. Ethereum ETH #ETH just crashed :(
+2025-03-12 14:14:47,187 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:47,205 - INFO - Sent mock tweet: Letter action agree hold become they. Solana SOL #SOL best investment ever
+2025-03-12 14:14:47,857 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:47,885 - INFO - Sent mock tweet: Poor lawyer them wall. Dogecoin #DOGE Buy now!
+2025-03-12 14:14:48,528 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:48,553 - INFO - Sent mock tweet: Add everyone in government oil role despite. XRP #XRP best investment ever
+2025-03-12 14:14:49,189 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:49,203 - INFO - Sent mock tweet: Across cup hard buy indeed. Cardano ADA #ADA best investment ever
+2025-03-12 14:14:49,846 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:49,860 - INFO - Sent mock tweet: Economy prepare moment. Solana SOL #SOL HODL!
+2025-03-12 14:14:50,486 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:50,501 - INFO - Sent mock tweet: How report want against reduce. Bitcoin BTC #BTC selling all my
+2025-03-12 14:14:51,167 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:51,179 - INFO - Sent mock tweet: Bit teach fine pretty despite range. Cardano ADA #ADA best investment ever
+2025-03-12 14:14:51,838 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:51,851 - INFO - Sent mock tweet: Culture loss himself pick television ability. Solana SOL #SOL is pumping!
+2025-03-12 14:14:52,531 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:52,545 - INFO - Sent mock tweet: Evening clearly traditional kind possible responsibility firm just. Bitcoin BTC #BTC is pumping!
+2025-03-12 14:14:53,258 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:53,272 - INFO - Sent mock tweet: Street world never drug more. Ethereum ETH #ETH Buy now!
+2025-03-12 14:14:53,906 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:53,919 - INFO - Sent mock tweet: Already nor one allow expect allow. Solana SOL #SOL just crashed :(
+2025-03-12 14:14:54,590 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:54,604 - INFO - Sent mock tweet: Something figure wife somebody project return. crypto #crypto Buy now!
+2025-03-12 14:14:55,252 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:55,264 - INFO - Sent mock tweet: Stand arm value unit fly. Solana SOL #SOL Buy now!
+2025-03-12 14:14:55,918 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:55,932 - INFO - Sent mock tweet: Expect marriage investment tax fill. XRP #XRP selling all my
+2025-03-12 14:14:56,565 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:56,579 - INFO - Sent mock tweet: Property least media. Bitcoin BTC #BTC is pumping!
+2025-03-12 14:14:57,242 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:57,256 - INFO - Sent mock tweet: Church a well black century item week. Dogecoin #DOGE is pumping!
+2025-03-12 14:14:57,941 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:57,956 - INFO - Sent mock tweet: Leave administration dream. Cardano ADA #ADA selling all my
+2025-03-12 14:14:58,654 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:58,668 - INFO - Sent mock tweet: Student ok security loss trial learn nor. Solana SOL #SOL is pumping!
+2025-03-12 14:14:59,296 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:59,310 - INFO - Sent mock tweet: Field possible actually artist might. Ethereum ETH #ETH to the moon!
+2025-03-12 14:14:59,972 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:14:59,986 - INFO - Sent mock tweet: Movie chance keep finish challenge. Dogecoin #DOGE is pumping!
+2025-03-12 14:15:00,646 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:00,659 - INFO - Sent mock tweet: Tv who test lay its. Ethereum ETH #ETH to the moon!
+2025-03-12 14:15:01,357 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:01,371 - INFO - Sent mock tweet: Explain father stuff wear. Solana SOL #SOL HODL!
+2025-03-12 14:15:02,131 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:02,147 - INFO - Sent mock tweet: Several indicate drive off compare source type. Ethereum ETH #ETH best investment ever
+2025-03-12 14:15:02,863 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:02,878 - INFO - Sent mock tweet: Any itself property song use sit close. Solana SOL #SOL selling all my
+2025-03-12 14:15:03,606 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:03,618 - INFO - Sent mock tweet: Effect she buy whole wide on account. Cardano ADA #ADA HODL!
+2025-03-12 14:15:04,334 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:04,348 - INFO - Sent mock tweet: Executive grow agree approach. Solana SOL #SOL Buy now!
+2025-03-12 14:15:05,092 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:05,107 - INFO - Sent mock tweet: Give stage feel let. Bitcoin BTC #BTC just crashed :(
+2025-03-12 14:15:06,078 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:06,090 - INFO - Sent mock tweet: Window color concern federal if natural material. Cardano ADA #ADA Buy now!
+2025-03-12 14:15:06,823 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:06,836 - INFO - Sent mock tweet: Follow significant may ready research move. Solana SOL #SOL HODL!
+2025-03-12 14:15:07,578 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:07,590 - INFO - Sent mock tweet: Easy time sound plant choose thought population art. Dogecoin #DOGE Buy now!
+2025-03-12 14:15:08,345 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:08,359 - INFO - Sent mock tweet: Official raise range interest quite be every hand. Ethereum ETH #ETH is pumping!
+2025-03-12 14:15:09,280 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:09,294 - INFO - Sent mock tweet: Positive small foot first recognize foreign her well. Cardano ADA #ADA is pumping!
+2025-03-12 14:15:10,024 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:10,037 - INFO - Sent mock tweet: Six hot around energy among wall education. Bitcoin BTC #BTC to the moon!
+2025-03-12 14:15:10,768 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:10,781 - INFO - Sent mock tweet: Draw although from western off reach recently. XRP #XRP is pumping!
+2025-03-12 14:15:11,451 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:11,550 - INFO - Sent mock tweet: High suddenly section use buy more today. Dogecoin #DOGE HODL!
+2025-03-12 14:15:12,292 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:12,304 - INFO - Sent mock tweet: Seek truth wait. Solana SOL #SOL Buy now!
+2025-03-12 14:15:13,021 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:13,034 - INFO - Sent mock tweet: Buy dog others attack such family nearly. Ethereum ETH #ETH is pumping!
+2025-03-12 14:15:13,689 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:13,702 - INFO - Sent mock tweet: Seven factor power peace. Dogecoin #DOGE is pumping!
+2025-03-12 14:15:14,321 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:14,335 - INFO - Sent mock tweet: Analysis share how design case. Bitcoin BTC #BTC is pumping!
+2025-03-12 14:15:15,026 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:15,038 - INFO - Sent mock tweet: Within record adult together trial. Ethereum ETH #ETH HODL!
+2025-03-12 14:15:15,753 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:15,767 - INFO - Sent mock tweet: Expert experience together when teacher term catch. Solana SOL #SOL Buy now!
+2025-03-12 14:15:16,442 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:16,456 - INFO - Sent mock tweet: Discuss former more different billion enter. Ethereum ETH #ETH just crashed :(
+2025-03-12 14:15:17,176 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:17,191 - INFO - Sent mock tweet: Determine scene method education. Solana SOL #SOL to the moon!
+2025-03-12 14:15:17,938 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:17,953 - INFO - Sent mock tweet: Skin story approach always. XRP #XRP to the moon!
+2025-03-12 14:15:18,657 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:18,672 - INFO - Sent mock tweet: Subject church guy guy writer into. Solana SOL #SOL HODL!
+2025-03-12 14:15:19,379 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:19,393 - INFO - Sent mock tweet: Speech nature decide training without fire majority. Ethereum ETH #ETH Buy now!
+2025-03-12 14:15:20,080 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:20,094 - INFO - Sent mock tweet: Up concern dinner. XRP #XRP to the moon!
+2025-03-12 14:15:20,863 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:20,875 - INFO - Sent mock tweet: Now effect organization lot along hour memory. Ethereum ETH #ETH HODL!
+2025-03-12 14:15:21,611 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:21,625 - INFO - Sent mock tweet: Third population executive senior. Ethereum ETH #ETH selling all my
+2025-03-12 14:15:22,321 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:22,333 - INFO - Sent mock tweet: Adult strong different. crypto #crypto HODL!
+2025-03-12 14:15:23,067 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:23,079 - INFO - Sent mock tweet: Bad site side evidence. Bitcoin BTC #BTC HODL!
+2025-03-12 14:15:23,743 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:23,821 - INFO - Sent mock tweet: Question feeling court. Bitcoin BTC #BTC to the moon!
+2025-03-12 14:15:24,528 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:24,544 - INFO - Sent mock tweet: Travel nice me woman power course. XRP #XRP selling all my
+2025-03-12 14:15:25,287 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:25,302 - INFO - Sent mock tweet: Purpose raise management capital election various than. Dogecoin #DOGE is pumping!
+2025-03-12 14:15:26,163 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:26,176 - INFO - Sent mock tweet: Avoid west coach building management ten worry. Dogecoin #DOGE to the moon!
+2025-03-12 14:15:26,931 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:26,946 - INFO - Sent mock tweet: Gun show pull behavior laugh popular. Cardano ADA #ADA best investment ever
+2025-03-12 14:15:27,709 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:27,722 - INFO - Sent mock tweet: Key sister draw spend summer resource collection. Ethereum ETH #ETH to the moon!
+2025-03-12 14:15:28,565 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:28,580 - INFO - Sent mock tweet: Military book several treatment. Bitcoin BTC #BTC Buy now!
+2025-03-12 14:15:29,258 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:29,273 - INFO - Sent mock tweet: Several young film not total. crypto #crypto selling all my
+2025-03-12 14:15:29,958 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:29,972 - INFO - Sent mock tweet: You power your job down agree different. crypto #crypto Buy now!
+2025-03-12 14:15:30,757 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:30,772 - INFO - Sent mock tweet: Sometimes few administration speak develop cut. Solana SOL #SOL selling all my
+2025-03-12 14:15:31,506 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:31,520 - INFO - Sent mock tweet: Success goal spend stay work sign. crypto #crypto is pumping!
+2025-03-12 14:15:32,269 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:32,284 - INFO - Sent mock tweet: Black though outside year consumer what. crypto #crypto Buy now!
+2025-03-12 14:15:32,977 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:32,991 - INFO - Sent mock tweet: Talk her poor quality study upon wish. Dogecoin #DOGE just crashed :(
+2025-03-12 14:15:33,811 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:33,826 - INFO - Sent mock tweet: Worker health word near heart. Cardano ADA #ADA selling all my
+2025-03-12 14:15:34,572 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:34,586 - INFO - Sent mock tweet: Rule mother our drop. Solana SOL #SOL is pumping!
+2025-03-12 14:15:35,250 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:35,265 - INFO - Sent mock tweet: New onto important rule my while. XRP #XRP selling all my
+2025-03-12 14:15:35,995 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:36,009 - INFO - Sent mock tweet: Customer support operation message. Bitcoin BTC #BTC HODL!
+2025-03-12 14:15:36,767 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:36,782 - INFO - Sent mock tweet: Structure apply street discuss. Cardano ADA #ADA just crashed :(
+2025-03-12 14:15:37,509 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:37,523 - INFO - Sent mock tweet: Try again traditional network than pressure product which. Cardano ADA #ADA selling all my
+2025-03-12 14:15:38,294 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:38,308 - INFO - Sent mock tweet: Agency time agent growth ever medical record trouble. Ethereum ETH #ETH to the moon!
+2025-03-12 14:15:39,056 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:39,068 - INFO - Sent mock tweet: Painting husband she which. crypto #crypto best investment ever
+2025-03-12 14:15:39,726 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:39,742 - INFO - Sent mock tweet: Sing happen short rather claim whole add. Solana SOL #SOL selling all my
+2025-03-12 14:15:40,438 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:40,452 - INFO - Sent mock tweet: Report everyone do century economy career. Bitcoin BTC #BTC Buy now!
+2025-03-12 14:15:41,147 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:41,161 - INFO - Sent mock tweet: No surface office strategy bit close man. Ethereum ETH #ETH best investment ever
+2025-03-12 14:15:41,827 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:41,839 - INFO - Sent mock tweet: Year business organization reduce from voice. Solana SOL #SOL just crashed :(
+2025-03-12 14:15:42,533 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:42,546 - INFO - Sent mock tweet: Certainly make beautiful arm face knowledge clearly. Bitcoin BTC #BTC Buy now!
+2025-03-12 14:15:43,221 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:43,235 - INFO - Sent mock tweet: Team hospital follow. Dogecoin #DOGE HODL!
+2025-03-12 14:15:43,925 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:43,939 - INFO - Sent mock tweet: Campaign upon nothing. Cardano ADA #ADA selling all my
+2025-03-12 14:15:44,645 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:44,660 - INFO - Sent mock tweet: Least also opportunity sister heavy. XRP #XRP best investment ever
+2025-03-12 14:15:45,343 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:45,358 - INFO - Sent mock tweet: Since federal foreign use. Dogecoin #DOGE just crashed :(
+2025-03-12 14:15:46,128 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:46,142 - INFO - Sent mock tweet: Enough region turn south today interest should. Dogecoin #DOGE selling all my
+2025-03-12 14:15:46,955 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:46,989 - INFO - Sent mock tweet: Father relationship let feel third rest. Solana SOL #SOL best investment ever
+2025-03-12 14:15:47,668 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:47,682 - INFO - Sent mock tweet: Process note heavy oil. crypto #crypto to the moon!
+2025-03-12 14:15:48,402 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:48,416 - INFO - Sent mock tweet: Huge development visit quality unit represent college general. Bitcoin BTC #BTC HODL!
+2025-03-12 14:15:49,146 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:49,160 - INFO - Sent mock tweet: Wonder will including traditional. Cardano ADA #ADA is pumping!
+2025-03-12 14:15:49,851 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:49,865 - INFO - Sent mock tweet: Former customer soon rich. Cardano ADA #ADA selling all my
+2025-03-12 14:15:50,642 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:50,657 - INFO - Sent mock tweet: Work character arrive candidate. XRP #XRP HODL!
+2025-03-12 14:15:51,512 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:51,525 - INFO - Sent mock tweet: Memory wear eight do kind. Dogecoin #DOGE Buy now!
+2025-03-12 14:15:52,302 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:52,318 - INFO - Sent mock tweet: Be near read memory my rise attorney. Solana SOL #SOL best investment ever
+2025-03-12 14:15:53,330 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:53,345 - INFO - Sent mock tweet: House old rest than film pay ask. Cardano ADA #ADA just crashed :(
+2025-03-12 14:15:54,067 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:54,080 - INFO - Sent mock tweet: Number ok for reduce. Ethereum ETH #ETH HODL!
+2025-03-12 14:15:54,815 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:54,829 - INFO - Sent mock tweet: Future citizen data. crypto #crypto Buy now!
+2025-03-12 14:15:55,566 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:55,581 - INFO - Sent mock tweet: None part stand apply full near economy. Bitcoin BTC #BTC HODL!
+2025-03-12 14:15:56,296 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:56,310 - INFO - Sent mock tweet: Child behavior teacher several behavior. Bitcoin BTC #BTC Buy now!
+2025-03-12 14:15:56,969 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:56,984 - INFO - Sent mock tweet: Mrs similar or if respond above. Cardano ADA #ADA just crashed :(
+2025-03-12 14:15:57,694 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:57,708 - INFO - Sent mock tweet: Decision he condition anyone staff final. crypto #crypto HODL!
+2025-03-12 14:15:58,354 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:58,367 - INFO - Sent mock tweet: Campaign compare rate anything age ok leader. Cardano ADA #ADA HODL!
+2025-03-12 14:15:59,127 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:59,140 - INFO - Sent mock tweet: Without near yes. crypto #crypto HODL!
+2025-03-12 14:15:59,796 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:59,809 - INFO - Sent mock tweet: Enjoy during analysis another event summer. crypto #crypto is pumping!
+2025-03-12 14:16:00,398 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:00,412 - INFO - Sent mock tweet: Maintain why argue well natural believe pass. Solana SOL #SOL best investment ever
+2025-03-12 14:16:01,046 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:01,061 - INFO - Sent mock tweet: Condition travel agency wish. XRP #XRP is pumping!
+2025-03-12 14:16:01,716 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:01,730 - INFO - Sent mock tweet: News issue I religious fill. XRP #XRP Buy now!
+2025-03-12 14:16:02,348 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:02,363 - INFO - Sent mock tweet: Try attack win threat natural movement war. crypto #crypto selling all my
+2025-03-12 14:16:03,014 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:03,027 - INFO - Sent mock tweet: News hear experience wide great. Dogecoin #DOGE to the moon!
+2025-03-12 14:16:03,668 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:03,681 - INFO - Sent mock tweet: Left work hard after interest voice including manage. crypto #crypto Buy now!
+2025-03-12 14:16:04,334 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:04,348 - INFO - Sent mock tweet: Goal heavy player social. Ethereum ETH #ETH Buy now!
+2025-03-12 14:16:05,014 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:05,028 - INFO - Sent mock tweet: Through today treat member entire food. Bitcoin BTC #BTC just crashed :(
+2025-03-12 14:16:05,675 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:16:05,689 - INFO - Sent mock tweet: Include behavior against assume real baby about specific. crypto #crypto is pumping!
+2025-03-12 14:16:06,357 - INFO - Stopped mock tweet stream. Sent 133 tweets in 95.8 seconds (~83.3 tweets/minute)
+2025-03-12 14:16:06,360 - INFO - Closing the Kafka producer with 0 secs timeout.
+2025-03-12 14:16:06,361 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2025-03-12 14:25:36,972 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-03-12 14:25:37,247 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-03-12 14:25:37,248 - INFO - Probing node bootstrap-0 broker version
+2025-03-12 14:25:37,250 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-03-12 14:25:37,357 - INFO - Broker version identified as 2.6.0
+2025-03-12 14:25:37,358 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-12 14:25:37,369 - INFO - Sent mock tweet: Far race try reflect the growth. Cardano ADA #ADA selling all my
+2025-03-12 14:25:37,382 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: connecting to DESKTOP-KMG1UAJ.home:9092 [('192.168.2.15', 9092) IPv4]
+2025-03-12 14:25:37,385 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: Connection complete.
+2025-03-12 14:25:37,388 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-03-12 14:25:38,111 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:25:38,126 - INFO - Sent mock tweet: Number water well late choose inside pattern. Solana SOL #SOL Buy now!
+2025-03-12 14:25:38,782 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:25:38,796 - INFO - Sent mock tweet: Challenge outside recognize business data. Dogecoin #DOGE HODL!
+2025-03-12 14:25:39,413 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:25:39,427 - INFO - Sent mock tweet: Deal education we break. Ethereum ETH #ETH to the moon!
+2025-03-12 14:25:40,021 - INFO - Stopped mock tweet stream. Sent 4 tweets in 2.7 seconds (~90.4 tweets/minute)
+2025-03-12 14:25:40,022 - INFO - Closing the Kafka producer with 0 secs timeout.
+2025-03-12 14:25:40,023 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2025-03-12 21:26:45,146 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-03-12 21:26:45,945 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-03-12 21:26:45,945 - INFO - Probing node bootstrap-0 broker version
+2025-03-12 21:26:45,946 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-03-12 21:26:46,050 - INFO - Broker version identified as 2.6.0
+2025-03-12 21:26:46,050 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-12 21:26:46,056 - INFO - Sent mock tweet: Affect wall sort thought control relate. crypto #crypto HODL!
+2025-03-12 21:26:46,062 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: connecting to DESKTOP-KMG1UAJ.home:9092 [('192.168.2.15', 9092) IPv4]
+2025-03-12 21:26:46,063 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: Connection complete.
+2025-03-12 21:26:46,064 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-03-12 21:26:46,730 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 21:26:46,742 - INFO - Sent mock tweet: Music another quality expect daughter here three. XRP #XRP to the moon!
+2025-03-12 21:26:47,450 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 21:26:47,462 - INFO - Sent mock tweet: Push through laugh heavy provide miss type. Cardano ADA #ADA Buy now!
+2025-03-12 21:26:48,171 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 21:26:48,183 - INFO - Sent mock tweet: In again side activity either seek alone. Ethereum ETH #ETH is pumping!
+2025-03-12 21:26:48,786 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 21:26:48,798 - INFO - Sent mock tweet: Art guy its year popular. Cardano ADA #ADA is pumping!
+2025-03-12 21:26:49,316 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 21:26:49,328 - INFO - Sent mock tweet: Own foreign hospital light. XRP #XRP just crashed :(
+2025-03-12 21:26:49,747 - INFO - Stopped mock tweet stream. Sent 6 tweets in 3.7 seconds (~97.5 tweets/minute)
+2025-03-12 21:26:49,749 - INFO - Closing the Kafka producer with 0 secs timeout.
+2025-03-12 21:26:49,749 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.

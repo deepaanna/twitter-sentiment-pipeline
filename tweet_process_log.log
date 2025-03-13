@@ -38,3 +38,138 @@
 2025-03-12 13:11:54,139 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
 2025-03-12 13:16:54,148 - INFO - Processed 8286 tweets in 300.0 seconds (~1657.1 tweets/minute)
 2025-03-12 13:19:53,799 - INFO - Stopped processing. Processed 5010 tweets in 179.6 seconds (~1673.3 tweets/minute)
+2025-03-12 14:14:38,393 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-03-12 14:14:38,394 - INFO - Probing node bootstrap-0 broker version
+2025-03-12 14:14:38,395 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-03-12 14:14:38,500 - INFO - Broker version identified as 2.6.0
+2025-03-12 14:14:38,501 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-12 14:14:38,504 - WARNING - group_id is None: disabling auto-commit.
+2025-03-12 14:14:38,506 - INFO - Updating subscribed topics to: ('tweets',)
+2025-03-12 14:14:38,620 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-03-12 14:14:38,924 - INFO - Starting tweet processing...
+2025-03-12 14:14:38,926 - INFO - Updated partition assignment: [TopicPartition(topic='tweets', partition=0)]
+2025-03-12 14:14:38,930 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: connecting to DESKTOP-KMG1UAJ.home:9092 [('192.168.2.15', 9092) IPv4]
+2025-03-12 14:14:38,931 - INFO - <BrokerConnection node_id=0 host=DESKTOP-KMG1UAJ.home:9092 <connecting> [IPv4 ('192.168.2.15', 9092)]>: Connection complete.
+2025-03-12 14:14:38,932 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-03-12 14:14:39,188 - INFO - Processed: Red very send condition. Dogecoin #DOGE Buy now! -> neutral
+2025-03-12 14:14:39,829 - INFO - Processed: During mission box teach matter. Cardano ADA #ADA HODL! -> postive
+2025-03-12 14:14:40,472 - INFO - Processed: Activity charge wind. XRP #XRP just crashed :( -> negative
+2025-03-12 14:14:41,141 - INFO - Processed: Wonder answer daughter tough discover fight. crypto #crypto selling all my -> negative
+2025-03-12 14:14:41,806 - INFO - Processed: Girl describe no half attention action consider middle. Bitcoin BTC #BTC Buy now! -> negative
+2025-03-12 14:14:42,478 - INFO - Processed: Civil race table work half rest everything. Ethereum ETH #ETH Buy now! -> neutral
+2025-03-12 14:14:43,173 - INFO - Processed: Wind industry notice down scene movement. Dogecoin #DOGE HODL! -> neutral
+2025-03-12 14:14:43,837 - INFO - Processed: Lose one condition certain. Dogecoin #DOGE Buy now! -> negative
+2025-03-12 14:14:44,474 - INFO - Processed: Figure film section science culture else. crypto #crypto to the moon! -> neutral
+2025-03-12 14:14:45,159 - INFO - Processed: Very necessary war give situation great total. Dogecoin #DOGE just crashed :( -> negative
+2025-03-12 14:14:45,840 - INFO - Processed: Over certainly clearly police. crypto #crypto is pumping! -> postive
+2025-03-12 14:14:46,529 - INFO - Processed: College charge not education. Ethereum ETH #ETH just crashed :( -> negative
+2025-03-12 14:14:47,213 - INFO - Processed: Letter action agree hold become they. Solana SOL #SOL best investment ever -> postive
+2025-03-12 14:14:47,890 - INFO - Processed: Poor lawyer them wall. Dogecoin #DOGE Buy now! -> negative
+2025-03-12 14:14:48,558 - INFO - Processed: Add everyone in government oil role despite. XRP #XRP best investment ever -> negative
+2025-03-12 14:14:49,214 - INFO - Processed: Across cup hard buy indeed. Cardano ADA #ADA best investment ever -> postive
+2025-03-12 14:14:49,864 - INFO - Processed: Economy prepare moment. Solana SOL #SOL HODL! -> neutral
+2025-03-12 14:14:50,506 - INFO - Processed: How report want against reduce. Bitcoin BTC #BTC selling all my -> postive
+2025-03-12 14:14:51,188 - INFO - Processed: Bit teach fine pretty despite range. Cardano ADA #ADA best investment ever -> postive
+2025-03-12 14:14:51,855 - INFO - Processed: Culture loss himself pick television ability. Solana SOL #SOL is pumping! -> neutral
+2025-03-12 14:14:52,549 - INFO - Processed: Evening clearly traditional kind possible responsibility firm just. Bitcoin BTC #BTC is pumping! -> postive
+2025-03-12 14:14:53,287 - INFO - Processed: Street world never drug more. Ethereum ETH #ETH Buy now! -> neutral
+2025-03-12 14:14:53,924 - INFO - Processed: Already nor one allow expect allow. Solana SOL #SOL just crashed :( -> negative
+2025-03-12 14:14:54,608 - INFO - Processed: Something figure wife somebody project return. crypto #crypto Buy now! -> neutral
+2025-03-12 14:14:55,268 - INFO - Processed: Stand arm value unit fly. Solana SOL #SOL Buy now! -> postive
+2025-03-12 14:14:55,937 - INFO - Processed: Expect marriage investment tax fill. XRP #XRP selling all my -> neutral
+2025-03-12 14:14:56,586 - INFO - Processed: Property least media. Bitcoin BTC #BTC is pumping! -> neutral
+2025-03-12 14:14:57,260 - INFO - Processed: Church a well black century item week. Dogecoin #DOGE is pumping! -> postive
+2025-03-12 14:14:57,960 - INFO - Processed: Leave administration dream. Cardano ADA #ADA selling all my -> postive
+2025-03-12 14:14:58,672 - INFO - Processed: Student ok security loss trial learn nor. Solana SOL #SOL is pumping! -> postive
+2025-03-12 14:14:59,314 - INFO - Processed: Field possible actually artist might. Ethereum ETH #ETH to the moon! -> neutral
+2025-03-12 14:14:59,990 - INFO - Processed: Movie chance keep finish challenge. Dogecoin #DOGE is pumping! -> postive
+2025-03-12 14:15:00,664 - INFO - Processed: Tv who test lay its. Ethereum ETH #ETH to the moon! -> neutral
+2025-03-12 14:15:01,375 - INFO - Processed: Explain father stuff wear. Solana SOL #SOL HODL! -> neutral
+2025-03-12 14:15:02,151 - INFO - Processed: Several indicate drive off compare source type. Ethereum ETH #ETH best investment ever -> postive
+2025-03-12 14:15:02,884 - INFO - Processed: Any itself property song use sit close. Solana SOL #SOL selling all my -> neutral
+2025-03-12 14:15:03,620 - INFO - Processed: Effect she buy whole wide on account. Cardano ADA #ADA HODL! -> neutral
+2025-03-12 14:15:04,352 - INFO - Processed: Executive grow agree approach. Solana SOL #SOL Buy now! -> postive
+2025-03-12 14:15:05,112 - INFO - Processed: Give stage feel let. Bitcoin BTC #BTC just crashed :( -> negative
+2025-03-12 14:15:06,093 - INFO - Processed: Window color concern federal if natural material. Cardano ADA #ADA Buy now! -> postive
+2025-03-12 14:15:06,838 - INFO - Processed: Follow significant may ready research move. Solana SOL #SOL HODL! -> postive
+2025-03-12 14:15:07,592 - INFO - Processed: Easy time sound plant choose thought population art. Dogecoin #DOGE Buy now! -> postive
+2025-03-12 14:15:08,363 - INFO - Processed: Official raise range interest quite be every hand. Ethereum ETH #ETH is pumping! -> postive
+2025-03-12 14:15:09,296 - INFO - Processed: Positive small foot first recognize foreign her well. Cardano ADA #ADA is pumping! -> postive
+2025-03-12 14:15:10,040 - INFO - Processed: Six hot around energy among wall education. Bitcoin BTC #BTC to the moon! -> postive
+2025-03-12 14:15:10,784 - INFO - Processed: Draw although from western off reach recently. XRP #XRP is pumping! -> postive
+2025-03-12 14:15:11,554 - INFO - Processed: High suddenly section use buy more today. Dogecoin #DOGE HODL! -> neutral
+2025-03-12 14:15:12,309 - INFO - Processed: Seek truth wait. Solana SOL #SOL Buy now! -> postive
+2025-03-12 14:15:13,036 - INFO - Processed: Buy dog others attack such family nearly. Ethereum ETH #ETH is pumping! -> negative
+2025-03-12 14:15:13,703 - INFO - Processed: Seven factor power peace. Dogecoin #DOGE is pumping! -> postive
+2025-03-12 14:15:14,341 - INFO - Processed: Analysis share how design case. Bitcoin BTC #BTC is pumping! -> postive
+2025-03-12 14:15:15,040 - INFO - Processed: Within record adult together trial. Ethereum ETH #ETH HODL! -> neutral
+2025-03-12 14:15:15,774 - INFO - Processed: Expert experience together when teacher term catch. Solana SOL #SOL Buy now! -> neutral
+2025-03-12 14:15:16,461 - INFO - Processed: Discuss former more different billion enter. Ethereum ETH #ETH just crashed :( -> negative
+2025-03-12 14:15:17,196 - INFO - Processed: Determine scene method education. Solana SOL #SOL to the moon! -> neutral
+2025-03-12 14:15:17,966 - INFO - Processed: Skin story approach always. XRP #XRP to the moon! -> neutral
+2025-03-12 14:15:18,675 - INFO - Processed: Subject church guy guy writer into. Solana SOL #SOL HODL! -> neutral
+2025-03-12 14:15:19,398 - INFO - Processed: Speech nature decide training without fire majority. Ethereum ETH #ETH Buy now! -> postive
+2025-03-12 14:15:20,099 - INFO - Processed: Up concern dinner. XRP #XRP to the moon! -> neutral
+2025-03-12 14:15:20,877 - INFO - Processed: Now effect organization lot along hour memory. Ethereum ETH #ETH HODL! -> neutral
+2025-03-12 14:15:21,630 - INFO - Processed: Third population executive senior. Ethereum ETH #ETH selling all my -> neutral
+2025-03-12 14:15:22,335 - INFO - Processed: Adult strong different. crypto #crypto HODL! -> postive
+2025-03-12 14:15:23,082 - INFO - Processed: Bad site side evidence. Bitcoin BTC #BTC HODL! -> negative
+2025-03-12 14:15:23,824 - INFO - Processed: Question feeling court. Bitcoin BTC #BTC to the moon! -> postive
+2025-03-12 14:15:24,549 - INFO - Processed: Travel nice me woman power course. XRP #XRP selling all my -> postive
+2025-03-12 14:15:25,307 - INFO - Processed: Purpose raise management capital election various than. Dogecoin #DOGE is pumping! -> neutral
+2025-03-12 14:15:26,180 - INFO - Processed: Avoid west coach building management ten worry. Dogecoin #DOGE to the moon! -> negative
+2025-03-12 14:15:26,958 - INFO - Processed: Gun show pull behavior laugh popular. Cardano ADA #ADA best investment ever -> postive
+2025-03-12 14:15:27,725 - INFO - Processed: Key sister draw spend summer resource collection. Ethereum ETH #ETH to the moon! -> neutral
+2025-03-12 14:15:28,585 - INFO - Processed: Military book several treatment. Bitcoin BTC #BTC Buy now! -> neutral
+2025-03-12 14:15:29,279 - INFO - Processed: Several young film not total. crypto #crypto selling all my -> neutral
+2025-03-12 14:15:29,978 - INFO - Processed: You power your job down agree different. crypto #crypto Buy now! -> postive
+2025-03-12 14:15:30,783 - INFO - Processed: Sometimes few administration speak develop cut. Solana SOL #SOL selling all my -> negative
+2025-03-12 14:15:31,532 - INFO - Processed: Success goal spend stay work sign. crypto #crypto is pumping! -> postive
+2025-03-12 14:15:32,289 - INFO - Processed: Black though outside year consumer what. crypto #crypto Buy now! -> neutral
+2025-03-12 14:15:32,996 - INFO - Processed: Talk her poor quality study upon wish. Dogecoin #DOGE just crashed :( -> negative
+2025-03-12 14:15:33,832 - INFO - Processed: Worker health word near heart. Cardano ADA #ADA selling all my -> postive
+2025-03-12 14:15:34,592 - INFO - Processed: Rule mother our drop. Solana SOL #SOL is pumping! -> negative
+2025-03-12 14:15:35,271 - INFO - Processed: New onto important rule my while. XRP #XRP selling all my -> postive
+2025-03-12 14:15:36,019 - INFO - Processed: Customer support operation message. Bitcoin BTC #BTC HODL! -> postive
+2025-03-12 14:15:36,787 - INFO - Processed: Structure apply street discuss. Cardano ADA #ADA just crashed :( -> negative
+2025-03-12 14:15:37,528 - INFO - Processed: Try again traditional network than pressure product which. Cardano ADA #ADA selling all my -> negative
+2025-03-12 14:15:38,313 - INFO - Processed: Agency time agent growth ever medical record trouble. Ethereum ETH #ETH to the moon! -> negative
+2025-03-12 14:15:39,070 - INFO - Processed: Painting husband she which. crypto #crypto best investment ever -> postive
+2025-03-12 14:15:39,745 - INFO - Processed: Sing happen short rather claim whole add. Solana SOL #SOL selling all my -> neutral
+2025-03-12 14:15:40,458 - INFO - Processed: Report everyone do century economy career. Bitcoin BTC #BTC Buy now! -> neutral
+2025-03-12 14:15:41,165 - INFO - Processed: No surface office strategy bit close man. Ethereum ETH #ETH best investment ever -> postive
+2025-03-12 14:15:41,844 - INFO - Processed: Year business organization reduce from voice. Solana SOL #SOL just crashed :( -> negative
+2025-03-12 14:15:42,548 - INFO - Processed: Certainly make beautiful arm face knowledge clearly. Bitcoin BTC #BTC Buy now! -> postive
+2025-03-12 14:15:43,239 - INFO - Processed: Team hospital follow. Dogecoin #DOGE HODL! -> neutral
+2025-03-12 14:15:43,948 - INFO - Processed: Campaign upon nothing. Cardano ADA #ADA selling all my -> neutral
+2025-03-12 14:15:44,664 - INFO - Processed: Least also opportunity sister heavy. XRP #XRP best investment ever -> postive
+2025-03-12 14:15:45,361 - INFO - Processed: Since federal foreign use. Dogecoin #DOGE just crashed :( -> negative
+2025-03-12 14:15:46,153 - INFO - Processed: Enough region turn south today interest should. Dogecoin #DOGE selling all my -> postive
+2025-03-12 14:15:46,992 - INFO - Processed: Father relationship let feel third rest. Solana SOL #SOL best investment ever -> postive
+2025-03-12 14:15:47,687 - INFO - Processed: Process note heavy oil. crypto #crypto to the moon! -> neutral
+2025-03-12 14:15:48,421 - INFO - Processed: Huge development visit quality unit represent college general. Bitcoin BTC #BTC HODL! -> postive
+2025-03-12 14:15:49,164 - INFO - Processed: Wonder will including traditional. Cardano ADA #ADA is pumping! -> neutral
+2025-03-12 14:15:49,869 - INFO - Processed: Former customer soon rich. Cardano ADA #ADA selling all my -> postive
+2025-03-12 14:15:50,663 - INFO - Processed: Work character arrive candidate. XRP #XRP HODL! -> neutral
+2025-03-12 14:15:51,540 - ERROR - Failed to save to S3: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
+2025-03-12 14:15:51,548 - INFO - Processed: Memory wear eight do kind. Dogecoin #DOGE Buy now! -> postive
+2025-03-12 14:15:52,323 - INFO - Processed: Be near read memory my rise attorney. Solana SOL #SOL best investment ever -> postive
+2025-03-12 14:15:53,350 - INFO - Processed: House old rest than film pay ask. Cardano ADA #ADA just crashed :( -> negative
+2025-03-12 14:15:54,092 - INFO - Processed: Number ok for reduce. Ethereum ETH #ETH HODL! -> postive
+2025-03-12 14:15:54,834 - INFO - Processed: Future citizen data. crypto #crypto Buy now! -> neutral
+2025-03-12 14:15:55,585 - INFO - Processed: None part stand apply full near economy. Bitcoin BTC #BTC HODL! -> neutral
+2025-03-12 14:15:56,320 - INFO - Processed: Child behavior teacher several behavior. Bitcoin BTC #BTC Buy now! -> neutral
+2025-03-12 14:15:56,988 - INFO - Processed: Mrs similar or if respond above. Cardano ADA #ADA just crashed :( -> negative
+2025-03-12 14:15:57,718 - INFO - Processed: Decision he condition anyone staff final. crypto #crypto HODL! -> neutral
+2025-03-12 14:15:58,371 - INFO - Processed: Campaign compare rate anything age ok leader. Cardano ADA #ADA HODL! -> postive
+2025-03-12 14:15:59,145 - INFO - Processed: Without near yes. crypto #crypto HODL! -> negative
+2025-03-12 14:15:59,812 - INFO - Processed: Enjoy during analysis another event summer. crypto #crypto is pumping! -> postive
+2025-03-12 14:16:00,416 - INFO - Processed: Maintain why argue well natural believe pass. Solana SOL #SOL best investment ever -> postive
+2025-03-12 14:16:01,065 - INFO - Processed: Condition travel agency wish. XRP #XRP is pumping! -> postive
+2025-03-12 14:16:01,734 - INFO - Processed: News issue I religious fill. XRP #XRP Buy now! -> neutral
+2025-03-12 14:16:02,367 - INFO - Processed: Try attack win threat natural movement war. crypto #crypto selling all my -> negative
+2025-03-12 14:16:03,032 - INFO - Processed: News hear experience wide great. Dogecoin #DOGE to the moon! -> postive
+2025-03-12 14:16:03,686 - INFO - Processed: Left work hard after interest voice including manage. crypto #crypto Buy now! -> postive
+2025-03-12 14:16:04,353 - INFO - Processed: Goal heavy player social. Ethereum ETH #ETH Buy now! -> neutral
+2025-03-12 14:16:05,033 - INFO - Processed: Through today treat member entire food. Bitcoin BTC #BTC just crashed :( -> negative
+2025-03-12 14:16:05,693 - INFO - Processed: Include behavior against assume real baby about specific. crypto #crypto is pumping! -> neutral
