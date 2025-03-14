@@ -7,33 +7,21 @@ import time
 from datetime import datetime
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import os
 
 st.set_page_config(
     page_title="Crypto Tweet Dashboard",
     layout="wide"
 )
 
-S3_BUCKET="deepaanna-twitter-processed"
-DB_HOST="localhost"
-DB_NAME="tweets_db"
-DB_PORT="5432"
-DB_USER="postgres"
-DB_PASSWORD="Newman1124!"
+# S3 config from environment variables
+S3_BUCKET= os.getenv("S3_BUCKET", "deepaanna-twitter-processed")
+AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 
-s3_client = boto3.client("s3")
-
-@st.cache_data(ttl=10)
-def fetch_from_postgres():
-    conn = psycopg2.connect(
-        host=DB_HOST,
-        port=DB_PORT,
-        dbname=DB_NAME,
-        user=DB_USER,
-        password=DB_PASSWORD)
-    query = "SELECT id, text, sentiment, created_at FROM tweets"
-    df = pd.read_sql_query(query, conn)
-    conn.close()
-    return df
+s3_client = boto3.client("s3",
+                         aws_access_key_id=AWS_ACCESS_KEY_ID,
+                         aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
 
 @st.cache_data(ttl=10)
 def fetch_from_s3():
@@ -58,7 +46,6 @@ def fetch_from_s3():
 st.title("Real-Time Crypto Tweet Sentiment Dashboard")
 
 # Side bar
-data_source = st.sidebar.selectbox("Data Source", ["PostgreSQL", "S3"])
 refresh_interval = st.sidebar.slider("Refresh Interval (seconds)", 5, 60, 10)
 auto_refresh = st.sidebar.checkbox("Enable Auto-Refresh", value=True)
 
@@ -68,10 +55,7 @@ placeholder = st.empty()
 # real-time update loop
 def update_dashboard():
     with placeholder.container():
-        if data_source == "PostgreSQL":
-            df = fetch_from_postgres()
-        else:
-            df = fetch_from_s3()
+        df = fetch_from_s3()
 
         if df.empty:
             st.warning("No data available yet. Run the pipeline to generate tweets!")
