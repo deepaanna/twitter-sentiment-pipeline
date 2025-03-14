@@ -16,14 +16,15 @@ I designed and deployed an end-to-end data engineering pipeline to simulate, pro
 **Ingestion**: Mock tweets generated at ~2K/minute -> Kafka topic 'tweets'.
 **Porcessing**: Kafka Consumer -> Sentiment analysis -> S3 ( raw JSON, processed Parquet) + PostgreSQL.
 **Dashboard**: Heroku-hosted Streamlit app pulling latest Parquet from S3, updating every 10 seconds with visuals ( pie chart, time series, etc.).
+
 ![Architecture](architecture.png)
 
 ## Key Features
-- Real-Time Streaming: Processes 10K tweets in 5 minutes (~2K/minute) using Kafka.
-- Scalable Storage: Raw JSON and processed Parquet in S3, structured data in PostgreSQL.
-- Rich Analytics: Live dashboard with pie charts, time series, word clouds, heatmaps, and top crypto mentions.
-- Deployment: Fully deployed on Heroku for public access.
-- Modular Design: Easily adapts to real Twitter API with credentials.
+- **Real-Time Streaming**: Processes 10K tweets in 5 minutes (~2K/minute) using Kafka.
+- **Scalable Storage**: Raw JSON and processed Parquet in S3, structured data in PostgreSQL.
+- **Rich Analytics**: Live dashboard with pie charts, time series, word clouds, heatmaps, and top crypto mentions.
+- **Deployment**: Fully deployed on Heroku for public access.
+- **Modular Design**: Easily adapts to real Twitter API with credentials.
 
 ## Results
 - Achieved ~2K tweets/minute throughput.
