@@ -16,7 +16,7 @@ I designed and deployed an end-to-end data engineering pipeline to simulate, pro
 **Ingestion**: Mock tweets generated at ~2K/minute -> Kafka topic 'tweets'.
 **Porcessing**: Kafka Consumer -> Sentiment analysis -> S3 ( raw JSON, processed Parquet) + PostgreSQL.
 **Dashboard**: Heroku-hosted Streamlit app pulling latest Parquet from S3, updating every 10 seconds with visuals ( pie chart, time series, etc.).
-![Architecture](architecture_diagram.png)
+![Architecture](architecture.png)
 
 ## Key Features
 - Real-Time Streaming: Processes 10K tweets in 5 minutes (~2K/minute) using Kafka.
@@ -27,11 +27,11 @@ I designed and deployed an end-to-end data engineering pipeline to simulate, pro
 
 ## Results
 - Achieved ~2K tweets/minute throughput.
-- Deployed dashboard at [https://twitter-sentiment-dashboard-2d515f0d9bc8.herokuapp.com/], updating live every 10 seconds.
+- Deployed dashboard at [Heroku](https://twitter-sentiment-dashboard-2d515f0d9bc8.herokuapp.com/), updating live every 10 seconds.
 - Stored ~1M tweets (mock data) across S3 andPostgreSQL over extended runs, ready for querying.
 
 ## Demo
-- Live Dashboard: [https://twitter-sentiment-dashboard-2d515f0d9bc8.herokuapp.com/ ]
+- Live Dashboard: [Heroku](https://twitter-sentiment-dashboard-2d515f0d9bc8.herokuapp.com/)
 - Code: [GitHub](https://github.com/deepaanna/twitter-sentiment-pipeline)
 
 ## Lessons Learned
