@@ -8,3 +8,4 @@ pyarrow==15.0.0
 pandas==2.2.0
 psycopg2-binary==2.9.9
 streamlit==1.31
+wordcloud==1.9.3
